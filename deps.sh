@@ -1,5 +1,5 @@
-apt-get -y update;
-apt-get -y upgrade;
+apt-get -y update
+apt-get -y upgrade
 
 #adduser --firstuid 100 --ingroup nogroup --shell /etc/false --disabled-password --gecos "" --no-create-home mongodb;
 #Add new user mongodb which is a system user, no home dir, in nogroup
