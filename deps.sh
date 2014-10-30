@@ -2,7 +2,7 @@ apt-get -y update
 apt-get -y upgrade
 
 # Add new user mongodb which is a system user, no home dir, in nogroup
-useradd -r -s /bin/false --no-user-group --gid nogroup mongodb
+useradd -r -s /bin/false --no-user-group --gid nogroup mongodb;
 
 # Install mongodb from pre-compiled binaries based on http://www.widriksson.com/install-mongodb-raspberrypi/
 cp -R ./mongodb-rpi-binaries/mongo /opt;
